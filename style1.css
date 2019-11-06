@@ -1,0 +1,7 @@
+/* FONTS */
+@font-face {
+	font-family: McLaren;
+	src: url(McLaren-Regular.woff) format("woff"),
+	     url(McLaren-Regular.ttf) format("truetype");
+}
+
