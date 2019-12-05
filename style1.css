@@ -19,18 +19,18 @@
 body {margin:0;font-family:Arial}
 
 .topnav {
-  overflow: hidden;
-  background-color: rgb(129, 31, 209);
+  overflow: show;
+  background-color: rgba(0,0,0,0);
   font-family: McLaren, cursive;
 }
 
 .topnav a {
   font-weight: 700;
   font-style: normal;
-  float: left;
+  float: right;
   display: block;
   color: #f2f2f2;
-  text-align: center;
+  text-align: left;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -38,24 +38,25 @@ body {margin:0;font-family:Arial}
 }
 
 .active {
-  background-color: rgb(148, 88, 197);
-  color: white;
+  background-color: rgb(57, 57, 57);
+  color: rgb(57, 57, 57);
 }
 
 .topnav .icon {
   display: none;
 }
 
-.dropdown {
-  float: left;
+.dropdown { 
+  float: right;
   overflow: hidden;
+  position: right,fixed;
 }
 
 .dropdown .dropbtn {
   font-size: 17px;    
   border: none;
   outline: none;
-  color: rgb(255, 255, 255);
+  color: #f2f2f2;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -65,7 +66,7 @@ body {margin:0;font-family:Arial}
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: rgb(57, 57, 57);
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -107,7 +108,6 @@ body {margin:0;font-family:Arial}
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
-    position: absolute;
     right: 0;
     top: 0;
   }
@@ -130,4 +130,5 @@ img#logonav{
 }
 div#myTopnav{
   position:fixed;
+  width: 100%;
 }
