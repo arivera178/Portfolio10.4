@@ -8,8 +8,8 @@
   font-family: gilbert-color;
   src:url("https://use.typekit.net/af/591b7d/00000000000000003b9b3d8c/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/591b7d/00000000000000003b9b3d8c/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/591b7d/00000000000000003b9b3d8c/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("truetype");
   font-display:auto;
-  font-style:normal
-  font-weight:700;
+  font-style:normal;
+  font-weight:7em;
   }
   @font-face {
     font-family: Barriecito;
@@ -22,6 +22,7 @@ body {margin:0;font-family:Arial}
   overflow: show;
   background-color: rgba(0,0,0,0);
   font-family: McLaren, cursive;
+position: fixed;
 }
 
 .topnav a {
