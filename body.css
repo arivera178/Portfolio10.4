@@ -165,3 +165,12 @@ p a, p a:after, p a:visited {
 	color: #FFFFFF;
 	cursor: pointer;
 }
+.resumetext{
+	font-family: "Medium";
+	font-size: 60px;
+	color: #FFFFFF;
+	line-height: 133%;
+}
+#topnav {
+	transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  }
